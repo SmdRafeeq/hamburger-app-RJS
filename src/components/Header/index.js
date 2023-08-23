@@ -8,7 +8,7 @@ import {BsInfoCircleFill} from 'react-icons/bs'
 
 import './index.css'
 
-const Header = () => {
+const Header = () => (
     <div className='nav-header'>
         <div className='nav-content'>
             <Link to='/'>
@@ -49,6 +49,6 @@ const Header = () => {
             </Popup>
         </div>
     </div>
-}
+)
 
 export default withRouter(Header)
